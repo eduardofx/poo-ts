@@ -5,8 +5,12 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc -b",
+    "production": "node ./dist/index.js",
+    "buildandrun": "tsc -b && node ./dist/index.js",
+    "develop": "ts-node-dev index.ts",
+    "live": "ts-node-dev --respawn index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Eduardo",
   "license": "ISC"
 }
