@@ -9,6 +9,7 @@
     "buildandrun": "tsc -b && node ./dist/index.js",
     "develop": "ts-node-dev index.ts",
     "live": "ts-node-dev --respawn index.ts",
+    "tracer": "tsc -p . --generateTrace trace --incremental false",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Eduardo",
